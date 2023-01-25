@@ -4,11 +4,8 @@
     font-family: 'JetBrains Mono', monospace;
 }
 
-html {
+body {
     background-color: #161717;
-}
-
-html span, h3 {
     color: white;
 }
 
