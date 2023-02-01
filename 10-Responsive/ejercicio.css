@@ -1,0 +1,26 @@
+.contenedor {
+    display: flex;
+}
+
+.barra {
+    display: flex;
+    flex-direction: column;
+    background-color: skyblue;
+    width: 10rem;
+    column-gap: 1rem;
+}
+
+.principal {
+    background-color: crimson;
+    flex-grow: 1;
+}
+
+@media (max-width: 640px) {
+    .contenedor {
+        flex-direction: column-reverse;
+    }
+
+    .barra {
+        flex-direction: row;
+    }
+}
